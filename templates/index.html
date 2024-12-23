@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Прогноз погоды</title>
+</head>
+<body>
+    <h1>Прогноз погоды по маршруту</h1>
+    <form method="POST">
+        <label for="route_points">Введите точки маршрута (через запятую):</label>
+        <input type="text" id="route_points" name="route_points" required><br><br>
+        <label for="forecast_days">Выберите длительность прогноза:</label>
+        <select id="forecast_days" name="forecast_days">
+            <option value="1">1 день</option>
+            <option value="5">5 дней</option>
+        </select><br><br>
+        <input type="submit" value="Показать прогноз">
+    </form>
+</body>
+</html>

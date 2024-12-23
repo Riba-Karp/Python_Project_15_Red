@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Результаты прогноза</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Прогноз погоды для маршрута</h1>
+    <h2>График температуры</h2>
+    <div>{{ temperature_graph|safe }}</div>
+    <h2>График вероятности осадков</h2>
+    <div>{{ rain_graph|safe }}</div>
+    <h2>Карта маршрута</h2>
+    <div>{{ map_graph|safe }}</div>
+    <a href="/">Вернуться назад</a>
+</body>
+</html>
